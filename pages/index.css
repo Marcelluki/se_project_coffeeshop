@@ -7,6 +7,59 @@
   line-height: 20px;
 }
 
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav {
+  display: flex;
+}
+.nav__links {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 80px;
+}
+.nav__link {
+  padding-right: 20px;
+}
+.nav__logo {
+}
+.header__title {
+  margin-top: 183px;
+  max-width: 729px;
+  margin-left: 80px;
+}
+.header__description {
+  padding-top: 20px;
+  max-width: 683px;
+}
+
+.header__footer {
+  display: flex;
+  margin-top: auto;
+  flex-direction: column;
+}
+.header__hours {
+}
+.header__address {
+  margin-left: auto;
+  padding-right: 80px;
+  margin-bottom: 40px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+  z-index: 1;
+}
+
 .content {
 }
 
