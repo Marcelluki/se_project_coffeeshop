@@ -215,6 +215,7 @@
   border: none;
 }
 .form__label {
+  display: flex;
   padding-bottom: 8px;
   font-family: Inter;
   font-style: normal;
@@ -222,6 +223,11 @@
   font-size: 16px;
   line-height: 20px;
   min-width: 385px;
+  outline: none;
+}
+
+.form__label:nth-last-of-type() {
+  align-content: center;
 }
 .form__input {
   height: 60px;
@@ -248,6 +254,9 @@
 }
 .form__checkbox {
   border-radius: 2px;
+}
+.form__label_checkbox {
+  justify-content: center;
 }
 
 .footer {
