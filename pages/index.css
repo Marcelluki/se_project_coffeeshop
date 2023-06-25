@@ -1,119 +1,15 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  background-image: url(../images/background_header.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-  position: relative;
-  padding: 30px 80px 40px 80px;
-}
-.nav {
-  display: flex;
-}
-.nav__links {
-  display: flex;
-  list-style: none;
-  margin-left: auto;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-.nav__link {
-  padding-right: 20px;
-}
-.nav__logo {
-}
-.header__title {
-  margin-top: 183px;
-  max-width: 729px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -0.6px;
-  margin-bottom: 0;
-}
-.header__span-accent {
-  color: #2f80ed;
-  font-style: italic;
-  display: block;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-}
-.header__description {
-  padding-top: 28px;
-  max-width: 683px;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
-}
-
-.header__footer {
-  display: flex;
-  flex-direction: row;
-  margin-top: auto;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  justify-content: space-between;
-}
-.header__hours {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-.header__paragraph {
-  display: flex;
-  margin: 0;
-}
-.header__address {
-  margin-left: auto;
-  margin-bottom: 40px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin: 0;
-  margin-top: auto;
-}
-
-.header__image {
-  position: absolute;
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
-  z-index: 1;
-}
-
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/form.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/card.css);
 .content {
 }
-.recipes {
+/* .recipes {
   display: flex;
   flex-direction: column;
   background-color: #0a2750;
@@ -176,8 +72,8 @@
   margin: 0;
 
   margin: 0;
-}
-.reservation {
+} */
+/* .reservation {
   display: flex;
   flex-direction: column;
   background-color: #d9e7ff;
@@ -201,8 +97,8 @@
   font-size: 44px;
   line-height: 52px;
   padding-bottom: 80px;
-}
-.form {
+} */
+/* .form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,7 +153,7 @@
 }
 .form__label_checkbox {
   justify-content: center;
-}
+} */
 
 .footer {
 }
