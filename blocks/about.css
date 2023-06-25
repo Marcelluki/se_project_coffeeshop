@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0a2850;
+  color: white;
+}
+.about__title {
+  max-width: 251px;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+.about__content {
+  padding-top: 119px;
+  max-width: 660px;
+  padding-right: 80px;
+  padding-bottom: 173px;
+}
+.about__circle {
+}
+.about__paragraph {
+  margin: 0;
+}
+.about__paragraph:not(:last-of-type) {
+  padding: 0 0 20px;
+}
