@@ -14,6 +14,10 @@
 .nav__link {
   padding-right: 20px;
 }
+.nav__link:hover {
+  background-color: #2f80ed;
+  transition-duration: 2s;
+}
 .nav__logo {
   margin: 0;
 }
