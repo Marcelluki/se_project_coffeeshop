@@ -10,6 +10,7 @@ This is the second project of the Web Development program at Practicum. It was c
 - Flat BEM
 - A custom form
 - CSS animation and transform
+- Used organization method for css using BEM methodology
 
 ## Plan on improving the project
 
