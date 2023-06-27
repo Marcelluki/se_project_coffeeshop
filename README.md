@@ -13,4 +13,5 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- improve functionality with different features like videos to see where the coffee comes from. (this will be put in a different section)
+- improved animations such as stacking
