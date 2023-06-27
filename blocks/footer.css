@@ -9,10 +9,15 @@
   padding-bottom: 108px;
   padding-left: 80px;
   padding-right: 100px;
+  justify-content: space-between;
 }
 .footer__logo {
   width: 105px;
   height: 39px;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-heading {
@@ -34,9 +39,13 @@
   font-size: 16px;
   line-height: 20px;
   list-style-type: none;
+  padding: 0;
 }
 .footer__list-item {
   gap: 10px;
+}
+.footer__list-item:not(:last-of-type) {
+  padding: 0 0 16px;
 }
 .footer__social-icon {
   height: 16px;
