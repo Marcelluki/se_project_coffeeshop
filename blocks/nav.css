@@ -19,6 +19,7 @@
 .nav__link:hover {
   background-color: #2f80ed;
   transition-duration: 2s;
+  border-radius: 25%;
 }
 .nav__logo {
   margin: 0;
